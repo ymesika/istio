@@ -1,4 +1,4 @@
-# istio CA watching all namespaces
+# istio CA watching all namespaces 
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
