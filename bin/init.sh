@@ -42,10 +42,10 @@ export GOPATH=${GOPATH:-$GO_TOP}
 export ISTIO_BIN=${ISTIO_BIN:-${GOPATH}/bin}
 
 # Set the architecture. Matches logic in the Makefile.
-export GOARCH=${GOARCH:-'amd64'}
+export GOARCH=${GOARCH:-'armv7'}
 
 # Determine the OS. Matches logic in the Makefile.
-LOCAL_OS="Darwin"
+LOCAL_OS="Windows"
 case $LOCAL_OS in
   'Linux')
     LOCAL_OS='linux'
